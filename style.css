@@ -93,3 +93,8 @@ body {
   border: 3px solid #ff0000;
   object-fit: cover;
 }
+.qr {
+  width: 60px;
+  height: 60px;
+  margin-top: 4px;
+}
