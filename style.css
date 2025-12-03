@@ -1,0 +1,95 @@
+/* ------------------------- */
+/* Body styling */
+body {
+  background-color: #b56060; /* light gray background */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ------------------------- */
+/* ID Card Container */
+.id-card {
+  width: 400px;
+  background-color: #000; /* black card */
+  color: #fff;            /* white text */
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3); /* simple shadow */
+  display: flex;          /* horizontal layout */
+  overflow: hidden;
+  border-top: 5px solid #ff0000;   /* red accent */
+  border-bottom: 5px solid #ff0000;
+}
+
+/* ------------------------- */
+/* Left side: logo + info */
+.id-left {
+  width: 60%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Logo */
+.id-left .logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Name */
+.id-left h2 {
+  color: #ff0000;      /* red name */
+  font-size: 20px;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+/* Role badge */
+.id-left .role {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+/* University and Email */
+.id-left p {
+  margin: 3px 0;
+  font-size: 13px;
+  color: #ccc;
+}
+
+/* Quote */
+.id-left .quote {
+  font-style: italic;
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* ------------------------- */
+/* Right side: profile photo */
+.id-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111; /* dark gray side */
+}
+
+/* Profile photo */
+.id-right .profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ff0000;
+  object-fit: cover;
+}
